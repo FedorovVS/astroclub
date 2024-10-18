@@ -8,6 +8,8 @@ parts:
   chapters:
   - file: grav_lens
   - file: electromagnetism
+  - file: met
+  - file: obrax
 - caption: СМТФ
   chapters:
   - file: sets
