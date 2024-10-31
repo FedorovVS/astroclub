@@ -34,3 +34,5 @@ sphinx:
   config:
     templates_path:
       - _templates
+    myst_enable_extensions:
+      - attrs_inline
