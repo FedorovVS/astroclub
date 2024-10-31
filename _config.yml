@@ -29,3 +29,8 @@ html:
   use_issues_button: true
   use_repository_button: true
   baseurl: "https://astroclub.su/"
+
+sphinx:
+  config:
+    templates_path:
+      - _templates
