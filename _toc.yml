@@ -13,5 +13,5 @@ parts:
 - caption: СМТФ
   chapters:
   - file: sets
-  - file: linalg
+  - file: chapters/linalg/linalg
   - file: calc
