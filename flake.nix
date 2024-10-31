@@ -18,7 +18,14 @@
         name = "astroclub-site";
         src = pkgs.lib.cleanSource self;
 
-        nativeBuildInputs = [(pkgs.python3.withPackages (ps: with ps; [jupyter-book]))];
+        nativeBuildInputs = [
+          (pkgs.python3.withPackages (ps:
+            with ps; [
+              jupyter-book
+              numpy
+              matplotlib
+            ]))
+        ];
         buildPhase = ''
           jupyter-book build .
         '';
