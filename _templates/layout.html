@@ -1,4 +1,14 @@
 {%- extends "!layout.html" %}
+
+{%- block htmltitle %}
+<script>
+if (location.protocol !== 'https:' && location.hostname === 'astroclub.su') {
+    location.replace(`https:${location.href.substring(location.protocol.length)}`);
+}
+</script>
+{{ super() }}
+{%- endblock %}
+
 {%- block extrahead %}
 {{ super() }}
 <!-- Matomo -->
