@@ -6,12 +6,12 @@ root: intro
 parts:
 - caption: Теоретические сюжеты
   chapters:
-  - file: grav_lens
-  - file: electromagnetism
-  - file: met
-  - file: obrax
+  - file: chapters/theory/grav_lens/grav_lens
+  - file: chapters/theory/electromagnetism/electromagnetism
+  - file: chapters/theory/iterations/iterations
+  - file: chapters/theory/brachistohrone/brachistohrone
 - caption: СМТФ
   chapters:
-  - file: sets
-  - file: chapters/linalg/linalg
-  - file: calc
+  - file: chapters/SMTF/sets/sets
+  - file: chapters/SMTF/linalg/linalg
+  - file: chapters/SMTF/calc/calc
