@@ -16,9 +16,8 @@ jobs:
       - uses: DeterminateSystems/nix-installer-action@main
       - name: Build website
         run: nix build .
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages
           path: result
 
   deploy:
