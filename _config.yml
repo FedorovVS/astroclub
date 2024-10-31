@@ -36,3 +36,8 @@ sphinx:
       - _templates
     myst_enable_extensions:
       - attrs_inline
+      - colon_fence
+      - dollarmath
+      - linkify
+      - substitution
+      - tasklist
