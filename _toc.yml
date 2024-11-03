@@ -10,8 +10,12 @@ parts:
   - file: chapters/theory/electromagnetism/electromagnetism
   - file: chapters/theory/iterations/iterations
   - file: chapters/theory/brachistohrone/brachistohrone
+- caption: Микросюжеты
+  chapters:
+  - file: chapters/micro/mech1/mech1
 - caption: СМТФ
   chapters:
   - file: chapters/SMTF/sets/sets
   - file: chapters/SMTF/linalg/linalg
   - file: chapters/SMTF/calc/calc
+
