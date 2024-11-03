@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Astroclub
-author: V. Fedorov
+author: Astroclub Community
 copyright: "2024"
 logo: logo.png
 
@@ -41,3 +41,11 @@ sphinx:
       - linkify
       - substitution
       - tasklist
+    numfig: True
+    numfig_secnum_depth: 1
+    numfig_format : {
+    'code-block': 'Listing %s',
+    'figure': 'Рис. %s',
+    'section': 'Section',
+    'table': 'Таб. %s',
+     }

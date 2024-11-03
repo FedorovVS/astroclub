@@ -3,6 +3,8 @@
 
 format: jb-book
 root: intro
+defaults:
+  numbered : True
 parts:
 - caption: Теоретические сюжеты
   chapters:
@@ -13,6 +15,7 @@ parts:
 - caption: Микросюжеты
   chapters:
   - file: chapters/micro/mech1/mech1
+  - file: chapters/micro/superluminal/superluminal
 - caption: СМТФ
   chapters:
   - file: chapters/SMTF/sets/sets
