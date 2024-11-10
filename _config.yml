@@ -29,6 +29,7 @@ html:
   use_issues_button: true
   use_repository_button: true
   baseurl: "https://astroclub.su/"
+  extra_footer: Распространяется на условиях <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ru">лицензии Creative Commons Attribution-ShareAlike 4.0 International</a>.
 
 sphinx:
   config:
