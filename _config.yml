@@ -44,9 +44,8 @@ sphinx:
       - tasklist
     numfig: True
     numfig_secnum_depth: 1
-    numfig_format : {
-    'code-block': 'Listing %s',
-    'figure': 'Рис. %s',
-    'section': 'Section',
-    'table': 'Таб. %s',
-     }
+    numfig_format:
+      code-block: "Listing %s"
+      figure: "Рис. %s"
+      section: "Section"
+      table: "Таб. %s"
