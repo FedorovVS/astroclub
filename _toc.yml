@@ -6,6 +6,10 @@ root: intro
 defaults:
   numbered : True
 parts:
+- caption: Теоретический минимум
+  chapters:
+  - file: chapters/teormin/rules
+  - file: chapters/teormin/program
 - caption: Теоретические сюжеты
   chapters:
   - file: chapters/theory/grav_lens/grav_lens
