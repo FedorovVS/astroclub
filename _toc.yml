@@ -10,6 +10,7 @@ parts:
   chapters:
   - file: chapters/teormin/rules
   - file: chapters/teormin/program
+  - file: chapters/teormin/results
 - caption: Теоретические сюжеты
   chapters:
   - file: chapters/theory/grav_lens/grav_lens
