@@ -18,6 +18,7 @@ parts:
   - file: chapters/theory/electromagnetism/electromagnetism
   - file: chapters/theory/iterations/iterations
   - file: chapters/theory/brachistohrone/brachistohrone
+  - file: chapters/theory/fourier/fourier
 - caption: Микросюжеты
   chapters:
   - file: chapters/micro/mech1/mech1
